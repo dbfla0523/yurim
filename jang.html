@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/jang_cs.css">
+</head>j
+
+<body>
+  <header>
+    <div class="add">
+      <a href="join.html">
+        <p>지금 가입하고 다양한 혜택 받으세요! (신규회원 프로모션 진행중!)</p>
+      </a>
+    </div>
+    <div class="nav">
+      <div class="search_container">
+        <div class="search">
+          <p>플친맺고 즉시 사용 가능한 할인쿠폰 겟!</p>
+          <span><img src="img/돋보기아이콘.png" alt="돋보기"></span>
+        </div>
+      </div>
+      <div class="logo"><a href="index.html"><img src="img/로고.png" alt="로고"></a></div>
+      <div class="gnb">
+        <ul>
+          <li><a href="#" class="active">BRAND</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="community.html">COMMUNITY</a></li>
+          <li><a href="event.html">EVENT</a></li>
+        </ul>
+      </div>
+
+      <div class="header_icon">
+        <a href="login.html"><img src="img/마아이콘.png" alt="회원가입"></a>
+        <a href="jang.html"><img src="img/장바구니아이콘.png" alt="장바구니" class="zang"></a>
+      </div>
+    </div>
+  </header>
+  <div class="titleArea">
+    <h3>장바구니</h3>
+  </div>
+
+  <div id="contentWrap">
+    <div id="content">
+      <div class="page-hd"></div>
+      <div class="page-tit">
+      </div>
+      <div id="cartWrap">
+        <div class="orderStep">
+          <ol>
+            <li class="active"><img src="img/jang.png.png" alt=""> 장바구니</li>
+            <li><img src="img/pen.png.png" alt=""> 주문/결제</li>
+            <li><img src="img/check.png.png" alt=""> 주문완료</li>
+          </ol>
+        </div>
+
+
+
+        <div class="page-body" style="margin-top: 50px;">
+          <div class="table-cart table-fill-prd">
+            <table summary="번호, 사진, 제품명, 수량, 적립, 가격, 배송비, 취소">
+              <colgroup>
+                <col width="50">
+                <col width="100">
+                <col width="*">
+                <col width="200">
+                <col width="100">
+                <col width="150">
+                <col width="90">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <div class="tb-center">
+                      <input type="checkbox" class="MS_input_checkbox"></div>
+                  </th>
+                  <th colspan="2" scope="col" style="padding-right: 10px;">
+                    <div class="tb-center">상품명</div>
+                  </th>
+                  <th scope="col">
+                    <div class="tb-center" style="padding-right: 90px;">수량</div>
+                  </th>
+
+                  <th scope="col">
+                    <div class="tb-right" style="padding-right: 30px;">판매가격</div>
+                  </th>
+                  <th scope="col">
+                    <div class="tb-right" style="padding-right: 50px;">적립금</div>
+                  </th>
+                  <th scope="col">
+                    <div class="tb-center">선택</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <form action="basket.html"></form>
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden" <input type="hidden">
+
+                <tr>
+                  <td>
+                    <div class="tb-center"> <input type="checkbox">
+                      <input type="hidden">
+                      <input type="hidden"></div>
+                  </td>
+                  <td>
+                    <div class="tb-center">
+                      <div class="thumb"> <a><img src="img/시드세럼.png" width="45px" height="70px" alt="상품 섬네일"
+                            title="상품 섬네일"></a> </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="tb-left"> <a class="subject"><strong>선 에센스 스테이 선 세이프 </strong></a> </div>
+                  </td>
+                  <td style="padding-left: 10px;">
+                    <div class="countArea">
+                      <button type="button" class="btnMinus">수량 빼기</button>
+                      <input type="text" value="1" class="pdtQty" id="qty">
+                      <button type="button" class="btnPlus">수량 더하기</button>
+                    </div>
+                  <td>
+                    <div class="tb-right tb-bold tb-price"><span>35,000</span>원</div>
+                  </td>
+                  <td>
+                    <div class="tb-right">0원 <span class="reservetit"> (구매적립)</span></div>
+                  </td>
+                  <td>
+                    <div class="tb-center btn_set"> <span class="d-block"><a class="abtn basic tiny"
+                          style="padding-left: 8px;padding-right: 8px;">선택주문</a></span> <span class="d-block"><a
+                          class="abtn basic tiny" style="padding-left: 8px;padding-right: 8px;">위시리스트</a></span> <span
+                        class="d-block"><a class="abtn basic tiny"
+                          style="padding-left: 8px;padding-right: 8px;">삭제</a></span> </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="total_order">
+              <ul style="width: 1000px;">
+                <li>
+                  <dl>
+                    <dt>판매가격</dt>
+                    <dd><strong>35,000</strong><span>원</span></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>할인금액</dt>
+                    <dd><strong>0</strong><span>원</span></dd>
+                    <dd class="sp_corp_ico minus"></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>배송비</dt>
+                    <dd><strong>0</strong><span>원</span></dd>
+                    <dd class="sp_corp_ico plus"></dd>
+                  </dl>
+                </li>
+                <li class="total_price">
+                  <dl>
+                    <dt>총 구매액</dt>
+                    <dd style="padding-right: 10px;"><strong>35,000</strong><span>원</span></dd>
+                    <dd class="sp_corp_ico equals"></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div style="display:block; height:80px;">
+            <div class="btn_set" style="float:left;"><a class="abtn basic">장바구니 비우기</a> <a class="abtn basic">쇼핑계속하기</a>
+            </div>
+            <div class="btn_set" style="float:right;"><a class="abtn basic checkbuy">선택상품 주문</a> <a
+                class="abtn basic buy">전체상품 주문</a></div>
+          </div>
+
+          <div class="method_pay">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footer">
+      <div class="footer_box1">
+        <div class="footer_menu">
+          <span>서비스 이용약관</span>
+          <span><b>개인정보보호방침</b></span>
+          <span>임직원전용</span>
+        </div>
+
+        <div footer_icon>
+          <a href="#" style="padding-right: 18px;"><img src="img/페이스북.png" alt="페이스북" width="20px" height="20px"></a>
+          <a href="#" style="padding-right: 18px;"><img src="img/인스타.png" alt="인스타그램" width="20px" height="20px"></a>
+          <a href="#"><img src="img/유튜브.png" alt="유튜브" width="20px" height="20px"></a>
+        </div>
+      </div>
+
+      <div class="footer_end">
+        <div class="f_box1">
+          <p><b>COMPANY</b>(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 </p>
+          <span><b>OWNER</b> 임혜영</span>
+          <p><b>E-mail</b>innisfree@innisfree.com</p>
+          <p><b>BUSINESS LICENSE</b>106-86-68127</p>
+        </div>
+        <div class="cs" style="margin-left: 310px;">
+          <p>c/s</p>
+          <p class="call">080-380-0114</p>
+          <p>AM09:00~PM18:00 (주말 및 공휴일 휴무)</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>

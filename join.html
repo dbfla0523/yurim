@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/join_cs.css">
+</head>
+
+<body>
+    <header>
+        <div class="add">
+            <a href="join.html">
+                <p>지금 가입하고 다양한 혜택 받으세요! (신규회원 프로모션 진행중!)</p>
+            </a>
+        </div>
+        <div class="nav">
+            <div class="search_container">
+                <div class="search" style="width: 327px;height: 38px;">
+                    <p>플친맺고 즉시 사용 가능한 할인쿠폰 겟!</p>
+                    <span><img src="img/돋보기아이콘.png" alt="돋보기"></span>
+                </div>
+            </div>
+            <div class="logo"><a href="index.html"><img src="img/로고.png" alt="로고"
+                        style="width: 215px;padding-left: 40px;padding-bottom: 0px;margin-bottom: 0px;"></a></div>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#" class="active">BRAND</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="community.html">COMMUNITY</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                </ul>
+            </div>
+            <div class="header_icon">
+                <a href="login.html"><img src="img/마아이콘.png" style="width: 41px;"></a>
+                <a href="jang.html"><img src="img/장바구니아이콘.png" alt="장바구니" class="zang"
+                        style="width: 30px;padding-top: 0px;border-top-width: 5px;margin-top: 0px;top: 3px;"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="wrap">
+        <div id="container">
+            <div id="contents" class="site-wrap">
+
+                <div class="titleArea">
+                    <h3 style="padding-top: 50px;padding-bottom: 20px;">회원 가입</h3>
+                </div>
+                <div class="ec-base-table typeWrite">
+                    <table border="0" style="margin-top: 0px;">
+                        <colgroup>
+                            <col style="width:150px;">
+                            <col style="width:auto;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th scope="row">아이디 *</th>
+                                <td><input id="member_id" name="member_id"
+                                        fw-filter="isFill&amp;isFill&amp;isMin[4]&amp;isMax[16]&amp;isIdentity"
+                                        fw-label="아이디" fw-msg="" class="inputTypeText" placeholder="" value=""
+                                        type="text"> <span id="idMsg"></span> (영문소문자/숫자, 4~16자)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비밀번호 *</th>
+                                <td>
+                                    <div class="eTooltip">
+                                        <input id="passwd" name="passwd" fw-filter="isFill&amp;isMin[4]&amp;isMax[16]"
+                                            fw-label="비밀번호" fw-msg="" autocomplete="off" maxlength="16" 0="disabled"
+                                            value="" type="password"> (영문 대소문자/숫자 4자~16자)
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비밀번호 확인 *</th>
+                                <td><input id="user_passwd_confirm" name="user_passwd_confirm"
+                                        fw-filter="isFill&amp;isMatch[passwd]" fw-label="비밀번호 확인"
+                                        fw-msg="비밀번호가 일치하지 않습니다." autocomplete="off" maxlength="16" 0="disabled"
+                                        value="" type="password"> <span id="pwConfirmMsg"></span> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="nameTitle">이름 *</th>
+                                <td>
+                                    <span id="nameContents"><input type="text" name="name" id="name"
+                                            maxlength="20"></span>
+                                </td>
+                            </tr>
+                            <th scope="row">휴대전화 *</th>
+                            <td><select id="mobile1" name="mobile[]" fw-filter="isNumber&amp;isFill" fw-label="휴대전화"
+                                    fw-alone="N" fw-msg="" style="margin-right: 4px;">
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="016">016</option>
+                                    <option value="017">017</option>
+                                    <option value="018">018</option>
+                                    <option value="019">019</option>
+                                </select>-<input id="mobile2" name="mobile[]" maxlength="4"
+                                    fw-filter="isNumber&amp;isFill" fw-label="휴대전화" fw-alone="N" fw-msg="" value=""
+                                    type="text" style="margin-left: 4px;margin-right: 4px;">-<input id="mobile3"
+                                    name="mobile[]" maxlength="4" fw-filter="isNumber&amp;isFill" fw-label="휴대전화"
+                                    fw-alone="N" fw-msg="" value="" type="text" style="margin-left: 4px;">
+                                <p class="txtWarn gBlank5 displaynone" id="result_send_verify_mobile_fail"></p>
+                            </td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th scope="row">이메일 *</th>
+                                <td><input id="email1" name="email1" fw-filter="isFill&amp;isEmail" fw-label="이메일"
+                                        fw-alone="N" fw-msg="" value="" type="text"> <span id="emailMsg"></span>
+                                </td>
+                            </tr>
+                            <tr class="displaynone">
+
+                                </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="ec-base-button">
+                        <a href="#none" class="btnSubmitFix sizeL" onclick="memberJoinAction()">가입하기</a>
+                    </div>
+                </div>
+
+
+                <footer>
+                    <div class="footer">
+                        <div class="footer_box1">
+                            <div class="footer_menu">
+                                <span>서비스 이용약관</span>
+                                <span><b>개인정보보호방침</b></span>
+                                <span>임직원전용</span>
+                            </div>
+
+                            <div footer_icon>
+                                <a href="#" style="padding-right: 18px;"><img src="img/페이스북.png" alt="페이스북" width="20px"
+                                        height="20px"></a>
+                                <a href="#" style="padding-right: 18px;"><img src="img/인스타.png" alt="인스타그램" width="20px"
+                                        height="20px"></a>
+                                <a href="#"><img src="img/유튜브.png" alt="유튜브" width="20px" height="20px"></a>
+                            </div>
+                        </div>
+
+                        <div class="footer_end">
+                            <div class="f_box1">
+                                <p><b>COMPANY</b>(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 </p>
+                                <span><b>OWNER</b> 임혜영</span>
+                                <p><b>E-mail</b>innisfree@innisfree.com</p>
+                                <p><b>BUSINESS LICENSE</b>106-86-68127</p>
+                            </div>
+                            <div class="cs" style="margin-left: 310px;">
+                                <p>c/s</p>
+                                <p class="call">080-380-0114</p>
+                                <p>AM09:00~PM18:00 (주말 및 공휴일 휴무)</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>

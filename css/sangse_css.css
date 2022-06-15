@@ -1,0 +1,867 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.add p {
+    background-color: #77CC95;
+    text-align: center;
+    height: 58px;
+    color: white;
+    font-size: 18px;
+    line-height: 58px;
+}
+
+.add a {
+    text-decoration: none;
+}
+
+.nav {
+    height: 142px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nav .search_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav .search {
+    width: 300px;
+    height: 18px;
+    margin: 24px 80px;
+    display: flex;
+    border: 2px solid #77CC95;
+    border-radius: 22px;
+    padding: 8px 0 8px 23px;
+    position: relative;
+}
+
+.nav .search span {
+    padding: 3px 8px 0 60px;
+    width: 18px;
+    height: 15px;
+}
+
+.nav .search span img {
+    position: absolute;
+    right: 5.7%;
+    bottom: 28%;
+}
+
+.nav .search p {
+    color: #9F9F9F;
+    padding: 0 18px 0 0;
+    font-size: 10px;
+    line-height: 0;
+}
+
+.nav .logo {
+    width: 300px;
+    height: 63px;
+    display: inline-block;
+}
+
+.nav .logo img {
+    width: 175px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 0 0 40px;
+}
+
+.gnb {
+    position: relative;
+    width: 384px;
+    height: 63px;
+    display: inline-block;
+}
+
+.gnb ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 25px;
+}
+
+.gnb ul .sub {
+    position: absolute;
+    top: 30px;
+    left: 105px;
+    width: 220px;
+    display: inline-block;
+    list-style: none;
+    z-index: 1;
+}
+
+nav ul {
+    position: relative;
+}
+
+.gnb ul li {
+    margin: 0 0 0 20px;
+}
+
+.gnb li a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.gnb li .sub {
+    background-color: white;
+    opacity: 82%;
+    padding: 20px 0px;
+}
+
+.gnb li .sub a {
+    font-weight: 400;
+}
+
+.gnb li .sub a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #77CC95;
+}
+
+.gnb ul li a:hover {
+    color: #77CC95;
+    text-decoration: underline;
+}
+
+.nav .header_icon {
+    width: 58%;
+    position: absolute;
+    top: 122px;
+    left: 92%;
+}
+
+.nav .header_icon .zang {
+    position: absolute;
+    bottom: 7px;
+    opacity: 80%;
+    margin-left: 1px;
+}
+
+.nav .header_icon img {
+    width: 28px;
+    height: 28px;
+    padding-right: 13px;
+}
+
+.nav .header_icon :nth-child(2) img {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+}
+
+.pdtViewTop {
+    max-width: 1068px;
+    min-width: 1024px;
+    margin: 80px auto 0;
+    box-sizing: border-box;
+}
+
+.pdtViewTop {
+    max-width: 1068px;
+    min-width: 1024px;
+    margin: 80px auto 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.pdtViewTop .pdtSlider_area {
+    position: relative;
+    float: left;
+    width: 450px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pdtViewTop .pdtViewCont {
+    float: right;
+    width: 534px;
+    position: relative;
+}
+
+.pdtViewTop .pdtHead {
+    margin: 14px 0 0;
+    font-size: 16px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pdtViewTop .pdtName {
+    margin: 10px 0 0;
+    color: #222;
+    font: 34px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pdtViewTop .pdtViewCont .review {
+    margin: 0px 0 20px 0;
+    cursor: pointer;
+}
+
+.pdtViewTop .reviewPointM {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.pdtViewTop .pdtViewOrderTxt {
+    margin: 40px 0 0;
+    padding: 30px 0;
+    border-top: 1px solid #dcdcdc;
+}
+
+.pdtViewTop .pdtViewOrderTxt dl {
+    position: relative;
+    margin: 0 0 8px;
+    padding-left: 108px;
+    font-size: 14px;
+}
+
+.pdtViewTop .pdtViewCont dl {
+    position: relative;
+    padding-left: 108px;
+    font-size: 14px;
+}
+
+.pdtViewTop .pdtViewOrderTxt dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #222;
+}
+
+.pdtViewTop .pdtViewCont dt {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: #222;
+}
+
+.pdtViewTop .pdtViewCont dl .price {
+    color: #222;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.pdtViewTop .pdtViewCont dl .price .num {
+    font: 26px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.won {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.pdtViewTop .pdtViewCont dl .price .regular {
+    margin-left: 10px;
+    color: #777;
+    font: 18px;
+}
+
+.pdtViewTop .pdtViewCount {
+    padding: 32px 0 0;
+    border-top: 1px solid #dcdcdc;
+}
+
+.pdtViewTop .pdtViewCount .inner {
+    top: 120px;
+    transition: top .3s;
+}
+
+.pdtViewTop .btnWrap {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin: 24px 0 0;
+    padding-left: 91px;
+    box-sizing: border-box;
+}
+
+.btnWrap {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.pdtViewTop .btnWrap .btnZzim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 64px;
+    border: 1px solid #dcdcdc;
+    font-size: 0;
+}
+
+button {
+    overflow: visible;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    outline: none;
+}
+
+.pdtViewTop .btnWrap span {
+    display: table-cell;
+    padding-left: 8px;
+}
+
+.pdtViewTop .btnWrap span [class*="btnType"] {
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.btnType3l {
+    height: 48px;
+    padding: 0 55px;
+    font: 18px/48px 'SDNeoL', 'notoR';
+}
+
+[class*="btnType"] {
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+button {
+    overflow: visible;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    outline: none;
+}
+
+input,
+select,
+textarea,
+button,
+pre,
+a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+.pdtViewTop .btnWrap span [class*="btnType"] {
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.btnType3l {
+    height: 48px;
+    padding: 0 55px;
+    font: 18px/48px 'SDNeoL', 'notoR';
+}
+
+[class*="btnType"] {
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+button {
+    overflow: visible;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    outline: none;
+}
+
+input,
+select,
+textarea,
+button,
+pre,
+a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+.pdtTabWrap .tabType {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0;
+    z-index: 100;
+}
+
+.pdtTabWrap .tabType ul {
+    position: relative;
+    max-width: 1280px;
+    min-width: 1024px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+[class*="tabType"]:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.countArea {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    border: 1px solid #a7a7a7;
+}
+
+.countArea .btnMinus {
+    top: 0;
+    left: 0;
+}
+
+.countArea [class*="btn"] {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #fff;
+    font-size: 0;
+}
+
+
+footer {
+    display: flex;
+    padding-top: 140px;
+    width: 1280px;
+    margin: 0 auto;
+    height: 258px;
+}
+
+footer .footer_box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+footer .footer_menu {
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.footer .footer_box1 .footer_icon {
+    display: flex;
+    width: 500px;
+    display: block;
+}
+
+.footer .footer_box1 .footer_icon a {
+    padding-right: 25px;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    width: 1239px;
+    height: 115px;
+    color: #606060;
+    padding: 0 23px;
+}
+
+.footer_end .f_box1 {
+    width: 1077px;
+}
+
+footer .footer_box2 p {
+    margin-bottom: 3px;
+}
+
+.footer .footer_menu span {
+    padding-right: 20px;
+}
+
+.f_box1 {
+    position: relative;
+}
+
+.footer .cs {
+    width: 250px;
+    height: 67px;
+    margin-bottom: 3px;
+}
+
+.footer .cs :nth-child(1) {
+    font-size: 14px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.footer .cs :nth-child(3) {
+    color: #606060;
+    font-size: 8px;
+}
+
+footer .cs p.call {
+    font-size: 22px;
+    color: #161616;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.countArea .btnMinus:after {
+    content: "-";
+}
+
+.countArea [class*="btn"]:after {
+    font: 18px/1.8 '돋움';
+    color: #000;
+}
+
+.countArea .pdtQty {
+    width: 38px;
+    height: 30px;
+    border: 1px solid #a7a7a7;
+    border-top: 0;
+    border-bottom: 0;
+    color: #222;
+    font-size: 14px;
+    text-align: center;
+}
+
+.countArea .btnPlus:after {
+    content: "+";
+}
+
+.totalPrice {
+    padding: 18px 25px 18px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 20px;
+    background: #f7f7f7;
+    margin-top: 50px;
+}
+
+span.ec-base-help,
+p.ec-base-help,
+ul.ec-base-help li {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    background: url(//img.echosting.cafe24.com/skin/base/common/ico_info.gif) no-repeat 0 2px;
+}
+
+.txt11 {
+    font-size: 13px;
+}
+
+.xans-product-detail .infoArea .xans-product-action {
+    padding: 0;
+}
+
+.ec-base-button[class*="gColumn"] {
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.ec-base-button {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.xans-product-detail .infoArea .xans-product-action [class^='btn'] {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ec-base-button[class*="gColumn"] [class^='btn'] {
+    margin: 0 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    white-space: normal;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+[class^='btn'].sizeL {
+    padding: 18px 20px;
+}
+
+[class^='btnSubmit'],
+a[class^='btnSubmit'] {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #333;
+}
+
+[class^='btn'] {
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #333;
+}
+
+[class^='btnNormal'],
+a[class^='btnNormal'] {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    color: #333;
+    background-color: #fff;
+}
+
+.fixOpt_total {
+    width: 1000px;
+}
+
+.pdtViewTop .totalSum {
+    margin: 28px 0 0;
+    text-align: right;
+    background-color: #F2F2F2;
+}
+
+.pdtViewTop .totalSum .tit {
+    display: inline-block;
+    margin-right: 48px;
+    font-size: 20px;
+    color: #222;
+}
+
+.pdtViewTop .totalSum .price {
+    display: inline-block;
+    font-size: 26px;
+    color: #d72137;
+}
+
+.pdtViewTop .totalSum .price {
+    display: inline-block;
+    font-size: 26px;
+    color: #000000;
+    font-weight: bold;
+    padding-right: 15px;
+    "
+
+}
+
+.pdtViewTop .btnWrap {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin: 24px 0 0;
+    padding-left: 91px;
+    box-sizing: border-box;
+}
+
+.btnWrap {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.pdtViewTop .btnWrap .btnZzim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 64px;
+    background: url(img/myWishBtnBg.png) no-repeat 50% 0;
+    border: 1px solid #dcdcdc;
+    font-size: 0;
+}
+
+button {
+    overflow: visible;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    outline: none;
+}
+
+input,
+select,
+textarea,
+button,
+pre,
+a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+.pdtViewTop .btnWrap span {
+    display: table-cell;
+    padding-left: 8px;
+}
+
+.pdtViewTop .btnWrap span [class*="btnType"] {
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.btnType3l {
+    height: 48px;
+    padding: 0 55px;
+    font: 18px/48px 'SDNeoL', 'notoR';
+}
+
+[class*="btnType3"] {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #77CC95;
+}
+
+[class*="btnType"] {
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+button {
+    overflow: visible;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    outline: none;
+}
+
+.btnWrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+[class*="btnType4"] {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    background: #77CC95;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
